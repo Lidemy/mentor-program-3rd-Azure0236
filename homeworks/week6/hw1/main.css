@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+nav {
+    background: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav > div {
+    display: inline-block;
+}
+.nav-title {
+    margin: 12px;
+    font-size: 20px;
+}
+.menu {
+    margin-left: 8px;
+    color: grey;
+    font-size: 16px;
+}
+.menu:hover {
+   color: white;
+}
+.header {
+    margin-top: 50px;
+    background: #e9faff;
+}
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 42px 25px;
+}
+.title {
+    font-size: 72px;
+}
+.btn-header {
+    background: #1f7ef2;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+}
+.btn-header:hover {
+    background: #0060d5;
+}
+.wrapper .pack {
+    max-width: 32%;
+    display: inline-block;
+}
+.first-heading {
+    font-size: 36px;
+}
+.btn-heading1 {
+    background: #939393;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+}
+.btn-heading1:hover {
+    background: #7a7a7a
+}
+.second-heading {
+    font-size: 36px;
+}
+.btn-heading2 {
+    background: #939393;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+}
+.btn-heading2:hover {
+    background: #7a7a7a
+}
+.third-heading {
+    font-size: 36px;
+}
+.btn-heading3 {
+    background: #939393;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+}
+.btn-heading3:hover {
+    background: #7a7a7a;
+}
+footer {
+    border-top: 1px solid #e3e3e3;
+    margin-top: 40px;
+    padding: 20px 0;
+}
