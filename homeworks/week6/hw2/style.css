@@ -1,0 +1,40 @@
+body {
+    color: #212f3c;
+}
+.wrapper {
+    margin: 30px auto;
+    max-width: 900px;
+    padding: 0 35px;
+}
+.header {
+    font-size: 42px;
+    margin: 40px 0;
+}
+.article {
+    font-size: 20px;
+}
+.button1 {
+    position: fixed;
+    top: 150px;
+    left: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #ADADAD;
+    border-width: 1px;
+}
+.botton1:hover {
+    border-color: #2f4f4f;
+    cursor: pointer;
+}
+.clap-num {
+    position: absolute;
+    top: 10px;
+    left: 17px;
+}
+.clap {
+    position: absolute;
+    top: 28px;
+    left: 20px;
+}
