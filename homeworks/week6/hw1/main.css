@@ -49,7 +49,7 @@ nav > div {
 .btn-header:hover {
     background: #0060d5;
 }
-.wrapper .pack {
+.pack {
     max-width: 32%;
     display: inline-block;
 }
@@ -102,4 +102,12 @@ footer {
     border-top: 1px solid #e3e3e3;
     margin-top: 40px;
     padding: 20px 0;
+}
+@media screen and (max-width:750px){
+    .pack {
+        display: block;
+        max-width: 100%;
+        margin-top: 20px;
+
+    }
 }
